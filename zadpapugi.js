@@ -1,0 +1,10 @@
+var text = 'Papugi koszą trawę, unosząc się nad ziemią 15 centymetrów, na czerwonych dywanach'; 
+var animal = 'Zielone słonie';
+var animalUpperCased = animal.toUpperCase();
+console.log(animalUpperCased);
+var text = 'Papugi koszą trawę, unosząc się nad ziemią 15 centymetrów, na czerwonych dywanach'; 
+var textCharsAfter = text.replace('Papugi', animal);
+console.log(textCharsAfter);
+console.log(textCharsAfter.length/2); 
+var s = textCharsAfter.substr(0, 45);
+console.log(s);
